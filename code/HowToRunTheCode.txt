@@ -1,0 +1,11 @@
+# For further info ask to carmougan@gmail.com & marcfusterr@gmail.com
+
+You need to have spain.csv in the same folder
+
+gcc -g -Wall -o Preprocessing Preprocessing.c -lm
+
+gcc -g -Wall -o Main Main.c functions.c -lm
+
+./Preprocessing
+
+./Main
